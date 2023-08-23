@@ -39,6 +39,12 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-      # Run a command
+      # Run2
       - name: Run a cat
         run: cat /etc/os-release
+
+      # Run3
+      - name: Run longer command
+        run: sudo apt update
+             sudo apt install -y bsdmainutils
+             cal
