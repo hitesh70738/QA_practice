@@ -45,6 +45,7 @@ jobs:
 
       # Run3
       - name: Run longer command
-        run: sudo apt update
-             sudo apt install -y bsdmainutils
-             cal
+        run: | 
+          sudo apt update
+          sudo apt install -y bsdmainutils
+          cal
